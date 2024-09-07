@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  /* cursor: none; */
+}
+
+@font-face {
+  font-family: 'font';
+  src: url('../assets/fonts/SingleDay-Regular.ttf');
+  font-weight: bold;
+}
+
+a {
+  width: 1500px;
+  height: 1500px;
+  margin-left: 50vw;
+  margin-top: 50vh;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: 1s all ease-in;
+  border: 750px solid #dd9d50;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 100%
+}
+
+#transition {
+  border: 0px solid #dd9d50;
+}
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+
+    <title>FLEAS!</title>
+
+    <!-- CSS stylesheet(s) -->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- My font(s) -->
+
+    <div style="font-family:font"></div>
+
+    <!-- Library script(s) -->
+
+    <script src="js/libraries/p5.min.js"></script>
+    <script src="js/libraries/p5.sound.min.js"></script>
+    <script src="js/libraries/phaser.min.js"></script>
+
+  </head>
+
+  <body style="background-color:#dd9d50;"> 
+
+    <a href = "#" id = "none">
+    
+    <!-- My script(s) -->
+
+    <script src="js/Boot.js"></script>
+    <script src="js/Play.js"></script>
+    <script src="js/main.js"></script>
+
+    </a>
+
+    <script>
+      // let currentCursor;
+      // let mouseCursors = [
+      // {
+      //   mouseCursor: `idle`,
+      //   pic: undefined
+      // },
+      // {
+      //   mouseCursor: `clickable`,
+      //   pic: undefined
+      // }
+      // ];
+    
+      // function preload() {
+      //   mouseCursors[0].pic = loadImage('assets/images/cursor_idle.gif'); 
+      // }
+      // do opening transition
+      function doTransition()
+      {
+        var transition = document.getElementById("none");
+        transition.id = "transition";
+      }
+      // // set mouse cursor
+      // currentCursor = mouseCursors
+      // image(currentCursor.pic, width / 2, height / 2);
+
+      // currentCursor.pic.delay(50);
+    </script>
+
+  </body> 
+  
+</html>
